@@ -121,7 +121,7 @@ public class  BaseClass {
 	public static void screenSHot(String filename) throws IOException {
 		TakesScreenshot tk =(TakesScreenshot)driver;
 		File src = tk.getScreenshotAs(OutputType.FILE);
-		File dest= new File("E:\\Maven\\screenshot\\"+filename);
+		File dest= new File("E:\\CucumberFrameWork\\Screenshot\\"+filename);
 		FileUtils.copyFile(src, dest);
 		}
 	public static void Scrolldown(WebElement Element) {
